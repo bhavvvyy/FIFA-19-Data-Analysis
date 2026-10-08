@@ -1,33 +1,82 @@
-# FIFA 19 Data Analysis: Data Cleaning and Visualization
+# ⚽ FIFA 19 Data Analysis: Data Cleaning and Visualization
 
-A Python data cleaning and exploratory analysis project on the FIFA 19 Complete Player Dataset.
+## 📌 Project Overview
 
-## Team
+**FIFA 19 Data Analysis** is a Python-based data cleaning and visualization project that explores the **FIFA 19 Complete Player Dataset**.
 
-- **Bhavya Patel (IU2441230594)** — Visualizations
-- **Pratham Desai (IU2441230604)** — Data Cleaning
+The project focuses on cleaning player data, handling missing values and outliers, and creating meaningful visualizations to identify patterns and relationships between different player attributes.
 
-## Dataset
+---
 
-- **Source:** FIFA 19 Complete Player Dataset
-- The dataset contains information about FIFA 19 football players, including their overall rating, potential, age, nationality, position, preferred foot, value, wage, and other player attributes.
-- **Goal:** Clean the dataset and explore important patterns and relationships between different player attributes.
+## 🎯 Project Objectives
 
-## Data Cleaning (`01_data_cleaning.ipynb`)
+The main objectives of this project are:
 
-- Loaded and explored the FIFA 19 dataset
-- Checked the dataset shape, columns, data types, and summary statistics
-- Checked missing values and handled them where required
-- Checked and removed duplicate records
-- Checked data types and unusual values
-- Detected numerical outliers using the IQR method
-- Capped outliers using the IQR method
-- Created before-and-after box plots for outlier analysis
-- Saved the final cleaned dataset as `FIFA19_cleaned.csv`
+- Clean and prepare the FIFA 19 player dataset.
+- Identify and handle missing values.
+- Detect and remove duplicate records.
+- Check and correct data types and unusual values.
+- Detect numerical outliers using the IQR method.
+- Analyze important FIFA player attributes.
+- Create meaningful visualizations from the cleaned dataset.
+- Identify useful patterns and relationships between player attributes.
+- Present the analysis in a clear and understandable way.
 
-## Visualizations (`02_visualizations.ipynb`)
+---
 
-Seven visualizations were created to explore the FIFA 19 player dataset:
+## 📊 Dataset
+
+**Dataset Name:** FIFA 19 Complete Player Dataset
+
+**Source:** Kaggle
+
+The dataset contains detailed information about FIFA 19 players, including:
+
+- Player overall rating
+- Potential
+- Age
+- Nationality
+- Position
+- Preferred foot
+- Value
+- Wage
+- Height
+- Weight
+- And other player attributes
+
+The dataset is used to perform data cleaning and exploratory data analysis.
+
+---
+
+## 🧹 Data Cleaning
+
+The data cleaning process was performed using Python and Pandas.
+
+### Steps performed:
+
+- Loaded and explored the FIFA 19 dataset.
+- Checked dataset shape and columns.
+- Checked data types and summary statistics.
+- Identified missing values.
+- Handled missing values where required.
+- Checked and removed duplicate records.
+- Checked unusual or incorrect values.
+- Detected numerical outliers using the **IQR method**.
+- Capped outliers using the IQR method.
+- Created before-and-after box plots for outlier analysis.
+- Saved the final cleaned dataset as `FIFA19_cleaned.csv`.
+
+### 📓 Notebook
+
+`01_data_cleaning.ipynb`
+
+---
+
+## 📈 Data Visualizations
+
+After cleaning the dataset, **7 visualizations** were created to explore the FIFA 19 player data.
+
+### Visualizations Included
 
 1. **Graph 01**
 2. **Graph 02**
@@ -37,36 +86,73 @@ Seven visualizations were created to explore the FIFA 19 player dataset:
 6. **Graph 06**
 7. **Graph 07**
 
-The visualizations were created using **Matplotlib** and **Seaborn** and saved as image files in the repository.
+The visualizations were created using **Matplotlib** and **Seaborn**.
 
-## Tools and Libraries
+Each visualization helps in understanding different patterns and relationships present in the FIFA 19 dataset.
 
-- Python
-- Google Colab
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Git
-- GitHub
+### 📓 Visualization Notebook
 
-## Files
+`02_visualizations.ipynb`
 
-- `kl.csv` — Raw FIFA 19 dataset
-- `FIFA19_cleaned.csv` — Cleaned dataset
-- `01_data_cleaning.ipynb` — Data cleaning notebook
-- `02_visualizations.ipynb` — Data visualization notebook
-- `01` to `07` — Saved visualization images
+---
 
-## How to Run
+## 🔍 Key Analysis Areas
 
-1. Open `01_data_cleaning.ipynb` in Google Colab.
-2. Run the notebook cells to perform data cleaning.
-3. Open `02_visualizations.ipynb` in Google Colab.
-4. Run the notebook cells to generate the visualizations.
+The project focuses on exploring areas such as:
 
-## GitHub Repository
+- Player ratings and potential
+- Player age distribution
+- Player values and wages
+- Player positions
+- Nationality distribution
+- Relationships between numerical player attributes
+- Distribution and patterns within FIFA 19 player statistics
 
-**FIFA 19 Data Analysis**
+---
 
-https://github.com/bhavvvyy/FIFA-19-Data-Analysis
+## 🛠️ Technologies & Libraries
+
+The project was developed using the following tools:
+
+- 🐍 **Python**
+- 📊 **Pandas** — Data manipulation and analysis
+- 🔢 **NumPy** — Numerical operations
+- 📈 **Matplotlib** — Data visualization
+- 🎨 **Seaborn** — Statistical visualization
+- ☁️ **Google Colab** — Notebook development
+- 🐙 **Git** — Version control
+- 🐱 **GitHub** — Project hosting and collaboration
+
+---
+
+## 📁 Project Structure
+
+```text
+FIFA-19-Data-Analysis/
+│
+├── README.md
+│
+├── kl.csv
+│
+├── FIFA19_cleaned.csv
+│
+├── 01_data_cleaning.ipynb
+│
+├── 02_visualizations.ipynb
+│
+├── 01.png
+├── 02.png
+├── 03.png
+├── 04.png
+
+---
+
+## 👥 Team Members
+
+- **Bhavya Patel (IU2441230594)** — Visualizations
+- **Pratham Desai (IU2441230604)** — Data Cleaning
+
+
+├── 05.png
+├── 06.png
+└── 07.png
