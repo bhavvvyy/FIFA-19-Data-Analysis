@@ -4,8 +4,8 @@ A Python data cleaning and exploratory analysis project on the FIFA 19 Complete 
 
 ## Team
 
-- **Bhavya Patel (IU2441230594)** — Data Cleaning
-- **Pratham Desai (IU2441230604)** — Visualizations
+- **Bhavya Patel (IU2441230594)** — Visualizations
+- **Pratham Desai (IU2441230604)** — Data Cleaning
 
 ## Dataset
 
