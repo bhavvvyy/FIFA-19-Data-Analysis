@@ -144,15 +144,12 @@ FIFA-19-Data-Analysis/
 ├── 02.png
 ├── 03.png
 ├── 04.png
-
+├── 05.png
+├── 06.png
+└── 07.png
 ---
 
 ## 👥 Team Members
 
 - **Bhavya Patel (IU2441230594)** — Visualizations
 - **Pratham Desai (IU2441230604)** — Data Cleaning
-
-
-├── 05.png
-├── 06.png
-└── 07.png
