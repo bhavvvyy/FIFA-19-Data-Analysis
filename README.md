@@ -16,7 +16,7 @@ The main objectives of this project are:
 - Identify and handle missing values.
 - Detect and remove duplicate records.
 - Check and correct data types and unusual values.
-- Detect numerical outliers using the IQR method.
+- Detect numerical outliers using the **IQR method**.
 - Analyze important FIFA player attributes.
 - Create meaningful visualizations from the cleaned dataset.
 - Identify useful patterns and relationships between player attributes.
@@ -52,7 +52,7 @@ The dataset is used to perform data cleaning and exploratory data analysis.
 
 The data cleaning process was performed using Python and Pandas.
 
-### Steps performed:
+### Steps Performed:
 
 - Loaded and explored the FIFA 19 dataset.
 - Checked dataset shape and columns.
@@ -131,15 +131,10 @@ The project was developed using the following tools:
 FIFA-19-Data-Analysis/
 │
 ├── README.md
-│
 ├── kl.csv
-│
 ├── FIFA19_cleaned.csv
-│
 ├── 01_data_cleaning.ipynb
-│
 ├── 02_visualizations.ipynb
-│
 ├── 01.png
 ├── 02.png
 ├── 03.png
@@ -147,9 +142,11 @@ FIFA-19-Data-Analysis/
 ├── 05.png
 ├── 06.png
 └── 07.png
----
 
+---
+```
 ## 👥 Team Members
 
 - **Bhavya Patel (IU2441230594)** — Visualizations
 - **Pratham Desai (IU2441230604)** — Data Cleaning
+---
